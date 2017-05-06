@@ -7,4 +7,4 @@ include("test/runtests.jl")
 
 
 # run the project
-HW_unconstrained.plot_sol() # careful, it can take a while
+env_comp_MFG.plot_sol() # careful, it can take a while
