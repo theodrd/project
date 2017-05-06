@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/theodrd/project.svg?branch=master)
+
 # A stochastic competition model with heterogeneous firms and environment externalities
 
 This repository contains my project for the course of numerical methods at Sciences Po. The code can be found in the src folder. Tests are in the test folder. It also includes a brief article summarazing the goal, methodology, and results.
