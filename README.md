@@ -9,3 +9,5 @@ This repository contains my project for the course of numerical methods at Scien
 I wanted tackle firms competition in the presence of environmental externalities, and to do so I use the mean field game theory. I constructed a simple model, in which a continum of heterogeneous firms compete in producing an industrial good. However the production of such good induces "C02" emissions, and firms are constrained by the environment. They cannot emit more than a given threshold. I then solve the model, which yields three constitutive equations, and I simulate it to find a numerical solution to these equations. 
 
 I particularly looked at the evolution of total quantities and prices given different environmental constraints. Hence I wanted to understand how firm adapt to exogeneous environmental constraints. Does it tend to reduce production and increase prices? Do firms invest more in a mitigating technology?
+
+NB: Travis is not working because it is unable to install Dierckx.
