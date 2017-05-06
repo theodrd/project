@@ -7,7 +7,7 @@ using env_comp_MFG
 # Initialization
 sigma = 0.02
 max_E = 20
-step_E = 0.5, 
+step_E = 0.5 
 step_k = 0.25 
 k_max = 5 
 step_time = 1
