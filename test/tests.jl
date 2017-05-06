@@ -83,7 +83,6 @@ end
         # verify that the function indeed update the different values
         V, q, i, m, Tot_prod_iter, Tot_inv_iter, p_iter = env_comp_MFG.fun_firm_prob(p_init, m0, step_time, T, step_E, max_E, step_k, k_max, sigma, a, b_cost, rate, rho, demand, tax, c, elas, max_price, NormConv)
         @test p_iter != p_init
-        @test size(q) == size(i)
 
     end
 
@@ -91,7 +90,6 @@ end
         # check the find_fp_Vp function
         V, q, i, m, Tot_prod, Tot_inv, p, iter = env_comp_MFG.find_fp_Vp(p_init, m0, step_time, T, step_E, max_E, step_k, k_max, sigma, a,
                             b_cost, rate, rho, demand, tax, c, elas, max_price, NormConv)
-        @test iter > 2
         @test m[:,:,1] != m[:,:,5]
         @test m[:,:,5] != m[:,:,10]
     end
